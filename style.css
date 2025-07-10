@@ -15,12 +15,12 @@ body {
 }
 .nav-banner {
   width: 100%;
-  background-image: url("/Assets/Hero-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("/Assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .nav-banner .navbar {
   width: 75%;
@@ -43,4 +43,34 @@ body {
 .banner h1 {
   color: #252432;
   font-size: 80px;
+}
+.action {
+  width: 100%;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+}
+.action main {
+  width: 75%;
+  display: flex;
+  gap: 30px;
+}
+.action .see {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  gap: 10px;
+}
+.action .webflow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.action .webflow img {
+  width: 340px;
+  height: 300px;
+  border-radius: 30px;
 }
