@@ -12,6 +12,12 @@ body {
   border: none;
   border-radius: 5px;
   padding: 10px 30px;
+  transition: all 0.3s ease;
+}
+.cmn-btn:hover {
+  background-color: #f0c410;
+  color: black;
+  transform: scale(1.05);
 }
 .nav-banner {
   width: 100%;
