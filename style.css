@@ -54,7 +54,7 @@ body {
 .action {
   width: 100%;
   background-color: #f5f8ff;
-  padding: 20px 30px;
+  padding: 20px 0;
   display: flex;
   justify-content: center;
 }
@@ -63,8 +63,11 @@ body {
   display: flex;
   gap: 30px;
 }
+.action main > * {
+  width: 100%;
+}
 .action .see {
-  padding: 20px 30px;
+  padding: 20px 30px 20px 0;
   display: flex;
   flex-direction: column;
   align-items: baseline;
@@ -75,7 +78,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
 }
 .action .webflow img {
   width: 340px;
@@ -112,6 +115,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.user .table .td h1 {
+  font-size: 40px;
 }
 .touch {
   width: 100%;
